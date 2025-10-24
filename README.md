@@ -84,11 +84,11 @@ Report saved to: export_enable_report.csv
 ## 📂 Example – ArcGIS Online Export Options
 
 Below is an example of how layers appear after the script successfully enables the export toggle.
-When shared via **ArcGIS Hub**, users can now export in any of these formats:
-
-![ArcGIS Export Options](fbb1c04c-8219-4a45-a41f-517430414991.png)
-
+![ArcGIS Export Options](Toggle for Export AGOL.png)
 *Figure: “Allow others to export to different formats” enables these options for public users.*
+
+When shared via **ArcGIS Hub**, users can now export in any of these formats:
+![ArcGIS Export Options](Different File Formats.png)
 
 ---
 
