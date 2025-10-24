@@ -1,4 +1,3 @@
-````markdown
 # ArcGIS Online – Bulk Export Enabler for Hosted Layers
 
 ### 🔹 Automate enabling “Allow others to export to different formats” across ArcGIS Online and Enterprise layers
@@ -10,42 +9,41 @@ It is especially useful in **distributed collaboration environments** and **ArcG
 
 ## 🧭 Overview
 
-When data is shared through **ArcGIS Hub** or **distributed collaboration workspaces**, each hosted feature layer must have the “Allow others to export to different formats” toggle turned **ON** to allow public export options.
+When data is shared through **ArcGIS Hub** or **distributed collaboration workspaces**, each hosted feature layer must have the  
+“Allow others to export to different formats” toggle turned **ON** to allow public export options.
 
-Manually enabling this for hundreds of layers and hosted views is slow — this script automates it safely and quickly.
+Manually enabling this for hundreds of layers and hosted views is slow — this script automates it safely and efficiently.
 
-### ✅ The script performs:
-1. Enables item-level toggle → `exportData = True`
-2. Adds service-level capability → `"Extract"`
-3. Recursively applies the same settings to all **hosted views**
+### ✅ The script performs
+
+1. Enables item-level toggle → `exportData = True`  
+2. Adds service-level capability → `"Extract"`  
+3. Recursively applies the same settings to all **hosted views**  
 4. Generates a detailed **CSV summary report**
 
 ---
 
-## 🧩 Key Features
+## 💡 Key Features
 
 | Feature | Description |
 |----------|--------------|
-| 🔄 Bulk Automation | Enables export for all hosted feature layers and views in selected groups |
-| ⚡ Parallel Processing | Uses ThreadPoolExecutor for 4–6× faster performance |
-| 🧠 Smart Recursion | Automatically detects and updates hosted views |
-| 📊 Summary Report | Exports audit results to CSV (`export_enable_report.csv`) |
-| 🧱 Multi-Group Support | Works across distributed collaboration workspaces |
+| ⚙️ **Bulk Automation** | Enables export for all hosted feature layers and views in selected groups |
+| ⚡ **Parallel Processing** | Uses ThreadPoolExecutor for 4–6× faster performance |
+| 🧠 **Smart Recursion** | Automatically detects and updates hosted views |
+| 📊 **Summary Report** | Exports audit results to CSV (`export_enable_report.csv`) |
+| 🧱 **Multi-Group Support** | Works across distributed collaboration workspaces |
 
 ---
 
 ## 🧰 Requirements
 
-- ArcGIS API for Python (≥ 2.1)
-- pandas
-- ArcGIS Online or Portal credentials with edit permissions
+- ArcGIS API for Python (≥ 2.1)  
+- pandas  
+- ArcGIS Online or Portal credentials with update access
 
 ### Install dependencies
 ```bash
 pip install arcgis pandas
-````
-
----
 
 ## 🚀 Usage
 
