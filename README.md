@@ -1,6 +1,6 @@
 # ArcGIS Online – Bulk Export Enabler for Hosted Layers
 
-### 🔹 Automate enabling “Allow others to export to different formats” across ArcGIS Online and Enterprise layers
+### 🔹 Automate enabling “Allow others to export to different formats” across ArcGIS Online layers
 
 This Python tool automates toggling the **“Allow others to export to different formats”** setting across multiple hosted feature layers and hosted views in ArcGIS Online or ArcGIS Enterprise.  
 It is especially useful in **distributed collaboration environments** and **ArcGIS Hub / Open Data portals** where layers must be exportable in formats like CSV, Shapefile, GeoJSON, FileGDB, Excel, and more.
