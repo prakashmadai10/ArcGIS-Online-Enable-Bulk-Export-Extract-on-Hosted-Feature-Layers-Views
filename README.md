@@ -84,11 +84,19 @@ Report saved to: export_enable_report.csv
 ## 📂 Example – ArcGIS Online Export Options
 
 Below is an example of how layers appear after the script successfully enables the export toggle.
-![ArcGIS Export Options](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Toggle%20for%20Export%20AGOL.png))
-*Figure: “Allow others to export to different formats” enables these options for public users.*
+
+![ArcGIS Export Options – Toggle Enabled](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Toggle%20for%20Export%20AGOL.png)
+
+*Figure 1: “Allow others to export to different formats” toggle turned ON inside ArcGIS Online.*
+
+---
 
 When shared via **ArcGIS Hub**, users can now export in any of these formats:
-![ArcGIS Export Options](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Different%20File%20Formats.png)
+
+![ArcGIS Export Options – File Formats](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Different%20File%20Formats.png)
+
+*Figure 2: Available export formats — CSV, Shapefile, GeoJSON, KML, Excel, File Geodatabase, GeoPackage, and SQLite.*
+
 
 ---
 
