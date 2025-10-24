@@ -84,7 +84,7 @@ Report saved to: export_enable_report.csv
 ## 📂 Example – ArcGIS Online Export Options
 
 Below is an example of how layers appear after the script successfully enables the export toggle.
-!([Toggle for Export AGOL.png](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Toggle%20for%20Export%20AGOL.png))
+![ArcGIS Export Options](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Toggle%20for%20Export%20AGOL.png))
 *Figure: “Allow others to export to different formats” enables these options for public users.*
 
 When shared via **ArcGIS Hub**, users can now export in any of these formats:
