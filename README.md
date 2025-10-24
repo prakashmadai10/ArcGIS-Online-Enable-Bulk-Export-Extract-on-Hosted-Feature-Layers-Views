@@ -1,8 +1,6 @@
-# ArcGIS Online – Bulk Export Enabler for Hosted Layers
+# ArcGIS Online – Bulk Export Enabler for Hosted Layers Automation
 
-### 🔹 Automate enabling “Allow others to export to different formats” across ArcGIS Online layers
-
-This Python tool automates toggling the **“Allow others to export to different formats”** setting across multiple hosted feature layers and hosted views in ArcGIS Online or ArcGIS Enterprise.  
+This Python tool automates toggling the **“Allow others to export to different formats”** setting across multiple hosted feature layers and hosted views in ArcGIS Online.  
 It is especially useful in **distributed collaboration environments** and **ArcGIS Hub / Open Data portals** where layers must be exportable in formats like CSV, Shapefile, GeoJSON, FileGDB, Excel, and more.
 
 ---
@@ -12,7 +10,7 @@ It is especially useful in **distributed collaboration environments** and **ArcG
 When data is shared through **ArcGIS Hub** or **distributed collaboration workspaces**, each hosted feature layer must have the  
 “Allow others to export to different formats” toggle turned **ON** to allow public export options.
 
-Manually enabling this for hundreds of layers and hosted views is slow — this script automates it safely and efficiently.
+Manually enabling this for hundreds of layers and hosted views is slow  and time consuming— this script automates it safely and efficiently.
 
 ### ✅ The script performs
 
@@ -84,11 +82,6 @@ Processing: Streetlight Outages [Feature Service] (abc123)
   ✓ Service capability 'Extract' enabled
   ↳ View detected: Streetlight_Outages_View
 
-=== Summary Report ===
-               Item Title        Item ID       Status              Notes
-0    Streetlight Outages        abc123       Success
-1  Streetlight_Outages_View  xyz789       Success
-
 Report saved to: export_enable_report.csv
 ✅ Completed successfully. All hosted layers/views reviewed.
 ```
@@ -98,7 +91,7 @@ Report saved to: export_enable_report.csv
 ## 📂 Example – ArcGIS Online Export Options
 
 Below is an example of how layers appear after the script successfully enables the export toggle.
-When shared via **ArcGIS Hub** or **Open Data**, users can now export in any of these formats:
+When shared via **ArcGIS Hub**, users can now export in any of these formats:
 
 ![ArcGIS Export Options](fbb1c04c-8219-4a45-a41f-517430414991.png)
 
@@ -122,7 +115,3 @@ When shared via **ArcGIS Hub** or **Open Data**, users can now export in any of 
 This tool is actively used in the **City of Midland’s distributed collaboration setup** to automate enabling export permissions for
 hundreds of hosted layers shared between **ArcGIS Enterprise ↔ ArcGIS Online**, ensuring all public-facing layers on **ArcGIS Hub** remain downloadable in open formats.
 
----
-
-Would you like me to also generate a small **badge section** (Python version, ArcGIS API version, License, etc.) for the top of the README to make it look like a professional open-source project?
-```
