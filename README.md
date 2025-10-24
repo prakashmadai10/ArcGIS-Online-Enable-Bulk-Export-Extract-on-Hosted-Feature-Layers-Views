@@ -113,6 +113,24 @@ When shared via **ArcGIS Hub**, users can now export in any of these formats:
 
 ## 🏛️ Real-World Use Case – City of Midland
 
-This tool is actively used in the **City of Midland’s distributed collaboration setup** to automate enabling export permissions for
-hundreds of hosted layers shared between **ArcGIS Enterprise ↔ ArcGIS Online**, ensuring all public-facing layers on **ArcGIS Hub** remain downloadable in open formats.
+This tool is actively used in the **City of Midland’s distributed collaboration setup** to automate enabling export permissions for  
+hundreds of hosted layers shared between **ArcGIS Enterprise ↔ ArcGIS Online**, ensuring all public-facing datasets on **ArcGIS Hub** remain downloadable in open formats.
+
+### 🔗 Example: ArcGIS Hub Open Data
+
+Visit the live dataset on the City of Midland’s **GeoStation Open Data Portal**:  
+👉 [City of Midland – Code Enforcement Inspections (ArcGIS Hub)](https://geostation-comgis.hub.arcgis.com/datasets/4f8d4bc827c84953b164a47746b36698_1/explore?location=31.996997%2C-102.106322%2C12.95)
+
+Click the **“Download”** button on that page — you’ll see multiple export format options automatically enabled by this script:
+
+- CSV  
+- Shapefile  
+- GeoJSON  
+- KML  
+- File Geodatabase  
+- Excel  
+- GeoPackage  
+- SQLite Geodatabase
+
+*Figure: ArcGIS Hub now offers multi-format export options once the "Allow others to export to different formats" toggle is turned ON.*
 
