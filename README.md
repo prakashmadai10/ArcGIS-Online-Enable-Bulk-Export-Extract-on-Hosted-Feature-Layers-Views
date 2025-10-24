@@ -87,7 +87,7 @@ Below is an example of how layers appear after the script successfully enables t
 
 ![ArcGIS Export Options – Toggle Enabled](https://github.com/prakashmadai10/ArcGIS-Online-Enable-Bulk-Export-Extract-on-Hosted-Feature-Layers-Views/blob/main/Toggle%20for%20Export%20AGOL.png)
 
-*Figure 1: “Allow others to export to different formats” toggle turned ON inside ArcGIS Online.*
+*Figure 1: “Allow others to export to different formats” toggle turned ON inside ArcGIS Online. Go to Feature layer > Settings to view this one*
 
 ---
 
