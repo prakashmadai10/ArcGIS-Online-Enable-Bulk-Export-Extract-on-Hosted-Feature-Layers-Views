@@ -45,14 +45,7 @@ pip install arcgis pandas
 
 ## 🚀 Usage
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/<your-username>/arcgis-export-enabler.git
-   cd arcgis-export-enabler
-   ```
-
-2. Edit the script to include your target **Group IDs**:
+1. Edit the script to include your target **Group IDs**:
 
    ```python
    GROUP_IDS = [
@@ -63,13 +56,13 @@ pip install arcgis pandas
    ]
    ```
 
-3. Run the script:
+2. Run the script:
 
    ```bash
    python enable_export_fast.py
    ```
 
-4. Review the output and the summary CSV.
+3. Review the output and the summary CSV.
 
 ---
 
